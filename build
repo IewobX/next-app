@@ -1,3 +1,4 @@
+cd ~/project
 git clone https://github.com/StrivingToRunning/next-app.git
 cd next-app
 npm i
