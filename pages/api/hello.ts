@@ -1,5 +1,11 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 
 export default (_: NextApiRequest, res: NextApiResponse) => {
-    res.status(200).json({ text: 'Hello' })
+    setTimeout(() => {
+        res.status(200).json({ 
+            code: 200,
+            data: {},
+            message: 'ok'
+        });
+    }, 3000);
 }
