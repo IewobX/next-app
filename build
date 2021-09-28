@@ -1,6 +1,9 @@
 cd ~/project
+rm -rf next-app
 git clone https://github.com/StrivingToRunning/next-app.git
 cd next-app
 npm i
 pm2 delete all
 pm2 start npm --name "next-app" -- run build
+nginx -s stop
+nginx
