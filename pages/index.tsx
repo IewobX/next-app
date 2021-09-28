@@ -21,11 +21,7 @@ export default function Home({
                 <title>{siteTitle}</title>
             </Head>
             <section className={utilStyles.headingMd}>
-                <p>这个人很懒，自我介绍什么也没写。</p>
-                <p>
-                    (This is a sample website - you’ll be building a site like this in{" "}
-                    <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-                </p>
+                <p>主动 保持新鲜感 知行合一</p>
             </section>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Blog</h2>
