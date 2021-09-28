@@ -18,7 +18,7 @@
 # misc
 .DS_Store
 .env*
-.idea*
+/.idea
 
 # debug
 npm-debug.log*
