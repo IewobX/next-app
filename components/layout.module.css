@@ -13,3 +13,17 @@
 .backToHome {
     margin: 3rem 0 0;
 }
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer a {
+    color: #999999;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
